@@ -10,7 +10,7 @@ const httpUsers = axios.create({
   });
 
   const httpRiverLever = axios.create({
-    baseURL: 'http://localhost:6000',
+    baseURL: 'http://localhost:3002',
     headers: {
       'Content-Type': 'application/json'
     }
